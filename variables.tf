@@ -15,8 +15,8 @@ variable "prefix" {
 }
 
 variable "billing_code" {
-  type = string
-  description  = "Billing required"
+  type        = string
+  description = "Billing required"
 }
 
 variable "cidr_block" {
