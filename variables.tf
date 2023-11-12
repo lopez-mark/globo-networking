@@ -14,10 +14,10 @@ variable "prefix" {
   default     = "globo-dev"
 }
 
-variable "billing_code" {
-  type        = string
-  description = "Billing required 2"
-}
+#variable "billing_code" {
+ # type        = string
+  #description = "Billing required 2"
+#}
 
 variable "cidr_block" {
   type        = string
