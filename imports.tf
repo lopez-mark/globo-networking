@@ -42,7 +42,7 @@ import {
   id = "PublicSubnet2/PublicRouteTable" #PublicSubnet2/PublicRouteTable
 }
 
-import {
-  to = aws_security_group.ingress
-  id = "NoIngressSecurityGroup" #NoIngressSecurityGroup
-}
+#import {
+# to = aws_security_group.ingress
+#id = "sg-NoIngressSecurityGroup" #NoIngressSecurityGroup
+#}
